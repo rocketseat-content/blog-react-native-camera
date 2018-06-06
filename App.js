@@ -25,7 +25,7 @@ export default class App extends Component {
             ref={camera => { this.camera = camera }}
             style = {styles.preview}
             type={RNCamera.Constants.Type.back}
-            autoFocus={RNCamera.Constants.AutoFocus.off}
+            autoFocus={RNCamera.Constants.AutoFocus.on}
             flashMode={RNCamera.Constants.FlashMode.off}
             permissionDialogTitle={'Permission to use camera'}
             permissionDialogMessage={'We need your permission to use your camera phone'}
